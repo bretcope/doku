@@ -1,0 +1,31 @@
+{
+  "name": "doku",
+  "version": "0.0.1",
+  "author": "Atlantis Flight Development <bret@atlantisflight.org>",
+  "description": "A non-opinionated code documenter.",
+  "contributors": [
+    {
+      "name": "Bret Copeland",
+      "email": "bret@atlantisflight.org"
+    }
+  ],
+  "main": "./lib/doku.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bretcope/doku.git"
+  },
+  "dependencies": {
+    "esprima": "~1.0.4",
+    "markdown": "~0.5.0",
+    "fs-extra": "~0.8.1",
+    "jade": "~0.35.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "documentation",
+    "docs",
+    "generator"
+  ],
+  "analyze": false,
+  "license": "MIT"
+}

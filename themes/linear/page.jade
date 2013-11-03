@@ -1,0 +1,8 @@
+!!!
+html
+	head
+		title #{title}
+		- for (var i = 0; i < css.length; i++)
+			link(href=css[i], rel='stylesheet')
+	body
+		!{body}
