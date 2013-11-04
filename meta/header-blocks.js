@@ -1,3 +1,5 @@
+// This plugin converts certain block-style comments into headers.
+
 var MIN_REPEAT_LENGTH = 5;
 
 module.exports = function (dok)
