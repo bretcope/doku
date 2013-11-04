@@ -23,7 +23,7 @@ module.exports = function (dok)
 		for (i = 1; i < lines.length - 1; i++)
 		{
 			lines[i] = trimToStartColumn(lines[i], startColumn);
-			if (trim(lines[i]) !== '')
+			if (lines[i].trim() !== '')
 			{
 				lastNotEmpty = i;
 				
@@ -41,12 +41,6 @@ module.exports = function (dok)
 	});
 };
 
-
-function trim (str)
-{
-	return str.replace(/^\s+|\s+$/g, '');
-}
-
 function trimToStartColumn (str, col)
 {
 	var reg = new RegExp('^\\s{0,' + col + '}( \\* )?');
@@ -55,7 +49,7 @@ function trimToStartColumn (str, col)
 
 function lineRepeats (line)
 {
-	line = trim(line);
+	line = line.trim();
 	
 	if (line.length < MIN_REPEAT_LENGTH)
 		return false;
