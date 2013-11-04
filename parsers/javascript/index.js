@@ -15,6 +15,7 @@ var Esprima = require('esprima');
  * ===================================================================================================== */
 
 Object.defineProperty(JavaScript.prototype, 'extensions', { get: function () { return [ 'js' ]; } });
+Object.defineProperty(JavaScript.prototype, 'language', { get: function () { return 'javascript'; } });
 
 /* ========================================================================================================
  * 
