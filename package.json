@@ -18,7 +18,8 @@
     "esprima": "~1.0.4",
     "markdown": "~0.5.0",
     "fs-extra": "~0.8.1",
-    "jade": "~0.35.0"
+    "jade": "~0.35.0",
+    "highlight.js": "~7.4.0"
   },
   "devDependencies": {},
   "keywords": [
