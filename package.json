@@ -1,6 +1,6 @@
 {
   "name": "doku",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Atlantis Flight Development <bret@atlantisflight.org>",
   "description": "A non-opinionated code documenter.",
   "contributors": [
